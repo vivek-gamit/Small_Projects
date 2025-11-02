@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg,rgb(158, 220, 158),rgb(218, 230, 218));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    
+
+}
+.container .title{
+    line-height: 80px;
+    background: linear-gradient(-135deg, rgb(10, 100, 71),rgb(118, 195, 178));
+    border-radius: 10px 10px 0px 0px ;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+}
+.container form{
+    padding: 10px 30px 50px 30px;
+}
+.container form .field{
+    width: 100%;
+    height: 60%;
+    margin-top: 10px;
+    
+}
+.container form .field input{
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+}
+.container form #pass-link{
+    margin-top: 10px;
+    text-align: end;
+}
+.container form button{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+     background: linear-gradient(-135deg, rgb(10, 100, 71),rgb(118, 195, 178));
+     border: none;
+     border-radius: 30px;
+}
